@@ -1,0 +1,6 @@
+my grocery
+get the grocerries
+select the items
+return the items
+Highlight the items
+Do the laundry
