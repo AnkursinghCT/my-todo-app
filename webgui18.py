@@ -9,7 +9,7 @@ def add_todo():
     dayrt.write_todos(todos)
 
 
-todos = dayrt.get_todos()
+
 
 st.title("My Todo App")
 st.subheader("This is my todo app.")
@@ -23,7 +23,7 @@ for index,todo in enumerate(todos):
        del st.session_state[todo]
        st.experimental_rerun()
 
-st.text_input(label="", placeholder="Add new todo:",
+st.text_input(label="", placeholder="Add new todo...",
               on_change=add_todo, key='new_todo')
 
 print("Hello")
